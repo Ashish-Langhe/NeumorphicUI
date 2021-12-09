@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72D8668827624FB500FBF1A5 /* NeumorphicUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D8668727624FB500FBF1A5 /* NeumorphicUIApp.swift */; };
+		72D8668A27624FB500FBF1A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D8668927624FB500FBF1A5 /* ContentView.swift */; };
+		72D8668C27624FB600FBF1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D8668B27624FB600FBF1A5 /* Assets.xcassets */; };
+		72D8668F27624FB600FBF1A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D8668E27624FB600FBF1A5 /* Preview Assets.xcassets */; };
+		72D8669927624FB600FBF1A5 /* NeumorphicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D8669827624FB600FBF1A5 /* NeumorphicUITests.swift */; };
+		72D866A327624FB600FBF1A5 /* NeumorphicUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D866A227624FB600FBF1A5 /* NeumorphicUIUITests.swift */; };
+		72D866A527624FB600FBF1A5 /* NeumorphicUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D866A427624FB600FBF1A5 /* NeumorphicUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72D8669527624FB600FBF1A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72D8667C27624FB500FBF1A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72D8668327624FB500FBF1A5;
+			remoteInfo = NeumorphicUI;
+		};
+		72D8669F27624FB600FBF1A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72D8667C27624FB500FBF1A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72D8668327624FB500FBF1A5;
+			remoteInfo = NeumorphicUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72D8668427624FB500FBF1A5 /* NeumorphicUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorphicUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D8668727624FB500FBF1A5 /* NeumorphicUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicUIApp.swift; sourceTree = "<group>"; };
+		72D8668927624FB500FBF1A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		72D8668B27624FB600FBF1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72D8668E27624FB600FBF1A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72D8669427624FB600FBF1A5 /* NeumorphicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeumorphicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D8669827624FB600FBF1A5 /* NeumorphicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicUITests.swift; sourceTree = "<group>"; };
+		72D8669E27624FB600FBF1A5 /* NeumorphicUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeumorphicUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D866A227624FB600FBF1A5 /* NeumorphicUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicUIUITests.swift; sourceTree = "<group>"; };
+		72D866A427624FB600FBF1A5 /* NeumorphicUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72D8668127624FB500FBF1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D8669127624FB600FBF1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D8669B27624FB600FBF1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72D8667B27624FB500FBF1A5 = {
+			isa = PBXGroup;
+			children = (
+				72D8668627624FB500FBF1A5 /* NeumorphicUI */,
+				72D8669727624FB600FBF1A5 /* NeumorphicUITests */,
+				72D866A127624FB600FBF1A5 /* NeumorphicUIUITests */,
+				72D8668527624FB500FBF1A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72D8668527624FB500FBF1A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D8668427624FB500FBF1A5 /* NeumorphicUI.app */,
+				72D8669427624FB600FBF1A5 /* NeumorphicUITests.xctest */,
+				72D8669E27624FB600FBF1A5 /* NeumorphicUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72D8668627624FB500FBF1A5 /* NeumorphicUI */ = {
+			isa = PBXGroup;
+			children = (
+				72D8668727624FB500FBF1A5 /* NeumorphicUIApp.swift */,
+				72D8668927624FB500FBF1A5 /* ContentView.swift */,
+				72D8668B27624FB600FBF1A5 /* Assets.xcassets */,
+				72D8668D27624FB600FBF1A5 /* Preview Content */,
+			);
+			path = NeumorphicUI;
+			sourceTree = "<group>";
+		};
+		72D8668D27624FB600FBF1A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				72D8668E27624FB600FBF1A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72D8669727624FB600FBF1A5 /* NeumorphicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72D8669827624FB600FBF1A5 /* NeumorphicUITests.swift */,
+			);
+			path = NeumorphicUITests;
+			sourceTree = "<group>";
+		};
+		72D866A127624FB600FBF1A5 /* NeumorphicUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72D866A227624FB600FBF1A5 /* NeumorphicUIUITests.swift */,
+				72D866A427624FB600FBF1A5 /* NeumorphicUIUITestsLaunchTests.swift */,
+			);
+			path = NeumorphicUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72D8668327624FB500FBF1A5 /* NeumorphicUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D866A827624FB600FBF1A5 /* Build configuration list for PBXNativeTarget "NeumorphicUI" */;
+			buildPhases = (
+				72D8668027624FB500FBF1A5 /* Sources */,
+				72D8668127624FB500FBF1A5 /* Frameworks */,
+				72D8668227624FB500FBF1A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeumorphicUI;
+			productName = NeumorphicUI;
+			productReference = 72D8668427624FB500FBF1A5 /* NeumorphicUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72D8669327624FB600FBF1A5 /* NeumorphicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D866AB27624FB600FBF1A5 /* Build configuration list for PBXNativeTarget "NeumorphicUITests" */;
+			buildPhases = (
+				72D8669027624FB600FBF1A5 /* Sources */,
+				72D8669127624FB600FBF1A5 /* Frameworks */,
+				72D8669227624FB600FBF1A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72D8669627624FB600FBF1A5 /* PBXTargetDependency */,
+			);
+			name = NeumorphicUITests;
+			productName = NeumorphicUITests;
+			productReference = 72D8669427624FB600FBF1A5 /* NeumorphicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72D8669D27624FB600FBF1A5 /* NeumorphicUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D866AE27624FB600FBF1A5 /* Build configuration list for PBXNativeTarget "NeumorphicUIUITests" */;
+			buildPhases = (
+				72D8669A27624FB600FBF1A5 /* Sources */,
+				72D8669B27624FB600FBF1A5 /* Frameworks */,
+				72D8669C27624FB600FBF1A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72D866A027624FB600FBF1A5 /* PBXTargetDependency */,
+			);
+			name = NeumorphicUIUITests;
+			productName = NeumorphicUIUITests;
+			productReference = 72D8669E27624FB600FBF1A5 /* NeumorphicUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72D8667C27624FB500FBF1A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					72D8668327624FB500FBF1A5 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					72D8669327624FB600FBF1A5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 72D8668327624FB500FBF1A5;
+					};
+					72D8669D27624FB600FBF1A5 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 72D8668327624FB500FBF1A5;
+					};
+				};
+			};
+			buildConfigurationList = 72D8667F27624FB500FBF1A5 /* Build configuration list for PBXProject "NeumorphicUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72D8667B27624FB500FBF1A5;
+			productRefGroup = 72D8668527624FB500FBF1A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72D8668327624FB500FBF1A5 /* NeumorphicUI */,
+				72D8669327624FB600FBF1A5 /* NeumorphicUITests */,
+				72D8669D27624FB600FBF1A5 /* NeumorphicUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72D8668227624FB500FBF1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D8668F27624FB600FBF1A5 /* Preview Assets.xcassets in Resources */,
+				72D8668C27624FB600FBF1A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D8669227624FB600FBF1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D8669C27624FB600FBF1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72D8668027624FB500FBF1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D8668A27624FB500FBF1A5 /* ContentView.swift in Sources */,
+				72D8668827624FB500FBF1A5 /* NeumorphicUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D8669027624FB600FBF1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D8669927624FB600FBF1A5 /* NeumorphicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D8669A27624FB600FBF1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D866A527624FB600FBF1A5 /* NeumorphicUIUITestsLaunchTests.swift in Sources */,
+				72D866A327624FB600FBF1A5 /* NeumorphicUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72D8669627624FB600FBF1A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72D8668327624FB500FBF1A5 /* NeumorphicUI */;
+			targetProxy = 72D8669527624FB600FBF1A5 /* PBXContainerItemProxy */;
+		};
+		72D866A027624FB600FBF1A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72D8668327624FB500FBF1A5 /* NeumorphicUI */;
+			targetProxy = 72D8669F27624FB600FBF1A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		72D866A627624FB600FBF1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72D866A727624FB600FBF1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72D866A927624FB600FBF1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeumorphicUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashishlanghe.NeumorphicUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72D866AA27624FB600FBF1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeumorphicUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashishlanghe.NeumorphicUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72D866AC27624FB600FBF1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashishlanghe.NeumorphicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeumorphicUI.app/NeumorphicUI";
+			};
+			name = Debug;
+		};
+		72D866AD27624FB600FBF1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashishlanghe.NeumorphicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeumorphicUI.app/NeumorphicUI";
+			};
+			name = Release;
+		};
+		72D866AF27624FB600FBF1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashishlanghe.NeumorphicUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeumorphicUI;
+			};
+			name = Debug;
+		};
+		72D866B027624FB600FBF1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashishlanghe.NeumorphicUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeumorphicUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72D8667F27624FB500FBF1A5 /* Build configuration list for PBXProject "NeumorphicUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D866A627624FB600FBF1A5 /* Debug */,
+				72D866A727624FB600FBF1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D866A827624FB600FBF1A5 /* Build configuration list for PBXNativeTarget "NeumorphicUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D866A927624FB600FBF1A5 /* Debug */,
+				72D866AA27624FB600FBF1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D866AB27624FB600FBF1A5 /* Build configuration list for PBXNativeTarget "NeumorphicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D866AC27624FB600FBF1A5 /* Debug */,
+				72D866AD27624FB600FBF1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D866AE27624FB600FBF1A5 /* Build configuration list for PBXNativeTarget "NeumorphicUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D866AF27624FB600FBF1A5 /* Debug */,
+				72D866B027624FB600FBF1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72D8667C27624FB500FBF1A5 /* Project object */;
+}
