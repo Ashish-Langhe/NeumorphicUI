@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button(action: {
+            
+        }) {
+            //SF Symbols
+            	Image(systemName: "heart.fill")
+                .resizable()
+                .frame(width: 60, height: 60, alignment: .center)
+                .padding(30)
+                .foregroundColor(Color.red)
+                .background(Color.secondary)
+        }
+        .clipShape(Circle())
+        .shadow(color: Color.gray	, radius: 8, x: 8, y: 8)
+        
     }
 }
 
