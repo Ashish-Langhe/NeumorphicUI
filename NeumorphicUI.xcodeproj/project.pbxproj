@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		724E628A276352A000D7B859 /* NeumorphicImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724E6289276352A000D7B859 /* NeumorphicImageButton.swift */; };
+		724E628C27636F8400D7B859 /* MusicPlayesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724E628B27636F8400D7B859 /* MusicPlayesView.swift */; };
 		72D8668827624FB500FBF1A5 /* NeumorphicUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D8668727624FB500FBF1A5 /* NeumorphicUIApp.swift */; };
 		72D8668A27624FB500FBF1A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D8668927624FB500FBF1A5 /* ContentView.swift */; };
 		72D8668C27624FB600FBF1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D8668B27624FB600FBF1A5 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		724E6289276352A000D7B859 /* NeumorphicImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicImageButton.swift; sourceTree = "<group>"; };
+		724E628B27636F8400D7B859 /* MusicPlayesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayesView.swift; sourceTree = "<group>"; };
 		72D8668427624FB500FBF1A5 /* NeumorphicUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeumorphicUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D8668727624FB500FBF1A5 /* NeumorphicUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicUIApp.swift; sourceTree = "<group>"; };
 		72D8668927624FB500FBF1A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				72D8668927624FB500FBF1A5 /* ContentView.swift */,
 				72D8668B27624FB600FBF1A5 /* Assets.xcassets */,
 				72D8668D27624FB600FBF1A5 /* Preview Content */,
+				724E6289276352A000D7B859 /* NeumorphicImageButton.swift */,
+				724E628B27636F8400D7B859 /* MusicPlayesView.swift */,
 			);
 			path = NeumorphicUI;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D8668A27624FB500FBF1A5 /* ContentView.swift in Sources */,
+				724E628A276352A000D7B859 /* NeumorphicImageButton.swift in Sources */,
+				724E628C27636F8400D7B859 /* MusicPlayesView.swift in Sources */,
 				72D8668827624FB500FBF1A5 /* NeumorphicUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,21 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // MARK: - PROPERTIES
+ 
+    
     var body: some View {
-        Button(action: {
-            
-        }) {
-            //SF Symbols
-            	Image(systemName: "heart.fill")
-                .resizable()
-                .frame(width: 60, height: 60, alignment: .center)
-                .padding(30)
-                .foregroundColor(Color.red)
-                .background(Color.secondary)
-        }
-        .clipShape(Circle())
-        .shadow(color: Color.gray	, radius: 8, x: 8, y: 8)
-        
+        VStack {
+            NeumorphicImageButton(systemName: "heart.fill") {
+                //BUTTON CLICK EVENT
+                print("Pressed")
+            }
+            .padding()
+            Text("Hello World")
+        }.frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.accentColor)
     }
 }
 
