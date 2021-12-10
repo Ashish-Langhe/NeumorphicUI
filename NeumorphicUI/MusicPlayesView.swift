@@ -36,14 +36,11 @@ struct MusicPlayesView: View {
             }
             .padding()
             Spacer()
-            
             Slider(value: self.$sliderValue, in: 0...1, step: 0.1)
                 .shadow(color: Color.red, radius: 8, x: 8, y: 8)
                 .shadow(color: Color.white, radius: 8, x: -8, y: -8)
                 .padding()
-            
             Spacer()
-            
             HStack {
                 NeumorphicImageButton(systemName: "backward.fill", size: CGSize(width: 40, height: 40)) {}
                 Spacer()
